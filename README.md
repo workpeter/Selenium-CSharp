@@ -26,9 +26,16 @@ Its common practice now to use C# selenium with a BDD library solution such as S
 SpecFlow provides the means to write business readable test flows in feature files, as well as organise those tests into scenarios and groups, and provide an easy mechanism for data-driven and parallel execution capabilities. 
 In my example project, I demonstrate how this is achieved. 
 
+![alt text](https://i.ibb.co/8sFkcqX/feature.png)
+
 ## Code organisation
 
-This framework demonstrates how to write code in a structured way to promote robustness and maintainability. Below are some concepts I have used:
+This framework demonstrates how to write code in a structured way to promote robustness and maintainability. 
+
+![alt text](https://i.ibb.co/0cMQ7hJ/org.png)
+
+
+Below are some concepts I have used:
 
  * **Object modelling** 
 the Tesco project is organised into two projects:
@@ -63,7 +70,7 @@ Can be used/referenced by any selenium project. By hooking into this library a s
     * The SQL database approach is particularly versatile because it allows you to overwrite results into an existing results table. useful if you had an existing script failure, which you have since fixed. 
     * The excel option is useful for those who do not wish to set up a database dependency and simply want the result written into an excel report template (provided). 
     * The log file system approach I find is a useful backup of results. The solution will also take screenshots on-error and put them in these logs folders. 
-    
+  
  
 ## Data-Driven
  
