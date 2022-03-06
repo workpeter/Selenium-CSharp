@@ -86,6 +86,6 @@ Then it's simply a matter of the soltuion pointing to the workbook and reading i
 
 A settings file can be found within the solution, which can hold test setup variables before executing the test. 
 
-![alt text](https://i.ibb.co/PjBzKdJ/run-settings.png)
+![alt text](https://i.ibb.co/4gYnCyj/run-settings.png)
 
 
