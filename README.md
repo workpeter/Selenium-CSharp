@@ -82,10 +82,29 @@ Then I have a login script design to pick a random account for login. To pick a 
 There are ways to make tests data-driven without using SpecFlow which I haven't demonstrated in this project. However, one approach which comes to mind is using excel interop, which provides an interface between C# and excel. 
 Then it's simply a matter of the soltuion pointing to the workbook and reading in data rows. Ideally pushing those rows into C# test case object first so that the data is more organised. 
 
+* **Example test data created by the registration test** 
+
+![alt text](https://i.ibb.co/4FcP5S7/DB-test-data.png)
+
+
 ## Test configuration
 
 A settings file can be found within the solution, which can hold test setup variables before executing the test. 
 
 ![alt text](https://i.ibb.co/4gYnCyj/run-settings.png)
 
+## Example Results screenshots
 
+* **Visual studios Test Explorer** 
+
+![alt text](https://i.ibb.co/BZS2cZJ/test-explorer.png)
+
+
+* **Results pushed to SQL database** 
+
+![alt text](https://i.ibb.co/4Sb6KsJ/db-results.png)
+
+
+* **Results pushed to Excel** 
+
+![alt text](https://i.ibb.co/18Fdz5z/excel-results.png)
