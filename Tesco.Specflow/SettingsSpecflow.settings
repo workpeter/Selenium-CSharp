@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Tesco.Specflow" GeneratedClassName="SettingsSpecflow">
+  <Profiles />
+  <Settings>
+    <Setting Name="ResultsTableName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TescoRunNumber_1</Value>
+    </Setting>
+    <Setting Name="Headless" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseSeleniumGrid" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SeleniumGridHub" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.168.1.190:2222/wd/hub</Value>
+    </Setting>
+    <Setting Name="Browser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">chrome</Value>
+    </Setting>
+    <Setting Name="IsScheduledTest" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ScheduledTime" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">19:00:00</Value>
+    </Setting>
+    <Setting Name="LogsBaseFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\LogsFolder</Value>
+    </Setting>
+    <Setting Name="SaveLocatioExcelReport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\LogsFolder\ExcelReport</Value>
+    </Setting>
+    <Setting Name="ResultsConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=localhost\SQLEXPRESS02;Database=Results;Trusted_Connection=True;</Value>
+    </Setting>
+    <Setting Name="TestDomain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.tesco.com</Value>
+    </Setting>
+    <Setting Name="GenericAccountPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pass@word456</Value>
+    </Setting>
+    <Setting Name="DetectGenericErrorObjectXpath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">//*[contains(text(),'but something went wrong')]</Value>
+    </Setting>
+    <Setting Name="RunFullTidyUp" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

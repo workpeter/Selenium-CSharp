@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverWrapper", "WebDriverWrapper\WebDriverWrapper.csproj", "{9612E3CC-DB41-426A-AEC6-4F470AC5BC3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tesco.Framework", "Tesco.Model\Tesco.Framework.csproj", "{4ED11601-5F54-44CD-A031-9C39C4D3CDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestResultBuilder", "TestResultBuilder\TestResultBuilder.csproj", "{45FCAEA5-E32C-454F-B695-EEA8B26234D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tesco.Specflow", "Tesco.Specflow\Tesco.Specflow.csproj", "{C7AC7F0A-ABDC-4C8A-A52B-086A79504636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsefulMethods", "UsefulMethods\UsefulMethods.csproj", "{F0AF0E5B-5CC4-4C70-9969-6BC3CA54A626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project_Tesco", "Project_Tesco", "{69340D07-8D43-4ADA-8334-C873DAFA8226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9612E3CC-DB41-426A-AEC6-4F470AC5BC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9612E3CC-DB41-426A-AEC6-4F470AC5BC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9612E3CC-DB41-426A-AEC6-4F470AC5BC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9612E3CC-DB41-426A-AEC6-4F470AC5BC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED11601-5F54-44CD-A031-9C39C4D3CDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED11601-5F54-44CD-A031-9C39C4D3CDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED11601-5F54-44CD-A031-9C39C4D3CDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED11601-5F54-44CD-A031-9C39C4D3CDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FCAEA5-E32C-454F-B695-EEA8B26234D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FCAEA5-E32C-454F-B695-EEA8B26234D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FCAEA5-E32C-454F-B695-EEA8B26234D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FCAEA5-E32C-454F-B695-EEA8B26234D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AC7F0A-ABDC-4C8A-A52B-086A79504636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AC7F0A-ABDC-4C8A-A52B-086A79504636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AC7F0A-ABDC-4C8A-A52B-086A79504636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AC7F0A-ABDC-4C8A-A52B-086A79504636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AF0E5B-5CC4-4C70-9969-6BC3CA54A626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AF0E5B-5CC4-4C70-9969-6BC3CA54A626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AF0E5B-5CC4-4C70-9969-6BC3CA54A626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AF0E5B-5CC4-4C70-9969-6BC3CA54A626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4ED11601-5F54-44CD-A031-9C39C4D3CDBC} = {69340D07-8D43-4ADA-8334-C873DAFA8226}
+		{C7AC7F0A-ABDC-4C8A-A52B-086A79504636} = {69340D07-8D43-4ADA-8334-C873DAFA8226}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {661A7612-3D63-453A-B5BD-390FA8280042}
+	EndGlobalSection
+EndGlobal
