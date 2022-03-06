@@ -95,6 +95,8 @@ A settings file can be found within the solution, which can hold test setup vari
 
 ## Example Results screenshots
 
+please note: I added some purposeful failures to demonstrate how failures look like.
+
 * **Visual studios Test Explorer** 
 
 ![alt text](https://i.ibb.co/BZS2cZJ/test-explorer.png)
