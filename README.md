@@ -107,4 +107,4 @@ A settings file can be found within the solution, which can hold test setup vari
 
 * **Results pushed to Excel** 
 
-![alt text](https://i.ibb.co/18Fdz5z/excel-results.png)
+![alt text](https://i.ibb.co/p4bR7Tk/excel-results.png)
